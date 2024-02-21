@@ -5,8 +5,8 @@ import json
 ses = boto3.client(
     "ses",
     region_name="us-east-1",
-    aws_access_key_id="AKIAULAP3J2A4EO4KGR3",
-    aws_secret_access_key="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",
+    aws_access_key_id="AKHGE4N6B7D9SH4",
+    aws_secret_access_key="12345678901230ZFpP/OgwjWgxBb7Kg6paVNIdZN",
 )
 
 # Prepare the template data
