@@ -6,11 +6,11 @@ ses = boto3.client(
     "ses",
     region_name="us-east-1",
     aws_access_key_id="AKHGE4N6B7D9SH4",
-    aws_secret_access_key="12345678901230ZFpP/OgwjWgxBb7Kg6paVNIdZN",
+    aws_secret_access_key="12345678901230ZFpP/OD8J4HD33G4B6N8AK3N5",
 )
 
 # Prepare the template data
-template_name = "QuickTranslatesTemplate"
+template_name = "xyzTemplate"
 subject_part = "Your Download is Ready!!"
 
 # The HTML template with the handlebars variables
@@ -152,7 +152,7 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td class="v-text-align" style="padding-right: 0px;padding-left: 0px;" align="center">
-      <a href="https://quicktranslates.com" target="_blank">
+      <a href="https://xyz.com" target="_blank">
       <img align="center" border="0" src="https://quick-translates.s3.amazonaws.com/static_media/images/image-7.png" alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 78px;" width="78" class="v-src-width v-src-max-width"/>
       </a>
     </td>
@@ -245,7 +245,7 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
       <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:35px 80px 10px;font-family:'Raleway',sans-serif;" align="left">
         
   <div class="v-text-align" style="font-size: 14px; color: #ffffff; line-height: 160%; text-align: center; word-wrap: break-word;">
-    <p style="font-size: 14px; line-height: 160%;">If you have any questions or require assistance, feel free to reach out to our friendly support team at <a rel="noopener" href="mailto:contact@quicktranslates.com" target="_blank">contact@quicktranslates.com</a>.</p>
+    <p style="font-size: 14px; line-height: 160%;">If you have any questions or require assistance, feel free to reach out to our friendly support team at <a rel="noopener" href="mailto:contact@xyz.com" target="_blank">contact@xyz.com</a>.</p>
 <p style="font-size: 14px; line-height: 160%;"> </p>
   </div>
 
@@ -334,7 +334,7 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
 
   <!--[if (mso)|(IE)]><td style="padding:5px 0px 5px 10px"><![endif]-->
   
-    <a href="https://quicktranslates.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
+    <a href="https://xyz.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
       Home
     </a>
   
@@ -349,7 +349,7 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
 
   <!--[if (mso)|(IE)]><td style="padding:5px 0px 5px 10px"><![endif]-->
   
-    <a href="https://quicktranslates.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
+    <a href="https://xyz.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
       Page
     </a>
   
@@ -364,7 +364,7 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
 
   <!--[if (mso)|(IE)]><td style="padding:5px 0px 5px 10px"><![endif]-->
   
-    <a href="https://quicktranslates.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
+    <a href="https://xyz.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
       About Us
     </a>
   
@@ -379,7 +379,7 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
 
   <!--[if (mso)|(IE)]><td style="padding:5px 0px 5px 10px"><![endif]-->
   
-    <a href="https://quicktranslates.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
+    <a href="https://xyz.com" target="_blank" style="padding:5px 0px 5px 10px;display:inline-block;color:#ffffff;font-size:14px;text-decoration:none"  class="v-padding">
       Contact US
     </a>
   
@@ -400,8 +400,8 @@ table, td { color: #000000; } #u_body a { color: #f1c40f; text-decoration: under
       <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 10px 50px;font-family:'Raleway',sans-serif;" align="left">
         
   <div class="v-text-align" style="font-size: 14px; color: #ffffff; line-height: 160%; text-align: center; word-wrap: break-word;">
-    <p style="line-height: 160%;">You have received this email as a registered user of <a href="https://quicktranslates.com.">quicktranslates.com</a></p>
-<p style="font-size: 14px; line-height: 160%;">You can <a href="https://quicktranslates.com">unsubscribe</a> from these emails here.</p>
+    <p style="line-height: 160%;">You have received this email as a registered user of <a href="https://xyz.com.">xyz.com</a></p>
+<p style="font-size: 14px; line-height: 160%;">You can <a href="https://xyz.com">unsubscribe</a> from these emails here.</p>
 <p style="font-size: 14px; line-height: 160%;"> </p>
 <p style="font-size: 14px; line-height: 160%;">2261 Market Street #4667 San Francisco, CA 94114 All rights reserved</p>
   </div>
